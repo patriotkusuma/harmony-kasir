@@ -32,6 +32,7 @@ import DetailPesanan from "views/pages/DetailPesanan";
 import Pembayaran from "views/pages/Pembayaran";
 import Login from "views/pages/Login.js";
 import Deposit from "views/pages/Deposit";
+import Message from "views/pages/Message";
 
 
 
@@ -48,6 +49,7 @@ root.render(
       <Route path="/pesanan" element={<Pesan/>}/>
       <Route path="/pembayaran" element={<Pembayaran/>}/>
       <Route path="/admin/riwayat/:kodePesan" element={<DetailPesanan/>}/>
+      {/* <Route path="/message" element={<Message/>}/> */}
       <Route path="*" element={<Navigate to="/admin/dashboard" replace />} />
     </Routes>
   </BrowserRouter>

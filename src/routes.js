@@ -30,6 +30,7 @@ import DetailPesanan from "views/pages/DetailPesanan";
 import Pembayaran from "views/pages/Pembayaran";
 import Bayar from "views/pages/Bayar";
 import Deposit from "views/pages/Deposit";
+import Message from "views/pages/Message";
 
 var routes = [
   // {
@@ -80,6 +81,13 @@ var routes = [
     icon: "ni ni-money-coins",
     component:  <Bayar/>,
     layout: "/admin",
+  },
+  {
+    path: '/message',
+    name: 'Customer Message',
+    icon: 'ni ni-tablet-button',
+    component: <Message />,
+    layout: '/admin'
   },
 
   // {

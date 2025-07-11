@@ -30,7 +30,6 @@ import {
     // const token = "2|2apMJHeXa1nNxMe6c6QW7sI7Z0DzfBBNR7J2PY6222866865"
     const headers = {
         "Content-Type": "application/json",
-        withCredentials: true,
         "Access-Control-Allow-Origin": "*"
     }
 
