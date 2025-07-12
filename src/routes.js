@@ -82,13 +82,13 @@ var routes = [
     component:  <Bayar/>,
     layout: "/admin",
   },
-  {
-    path: '/message',
-    name: 'Customer Message',
-    icon: 'ni ni-tablet-button',
-    component: <Message />,
-    layout: '/admin'
-  },
+  // {
+  //   path: '/message',
+  //   name: 'Customer Message',
+  //   icon: 'ni ni-tablet-button',
+  //   component: <Message />,
+  //   layout: '/admin'
+  // },
 
   // {
   //   path: "/deposit",

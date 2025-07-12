@@ -15,6 +15,7 @@ import { io } from "socket.io-client";
 import { Bounce, ToastContainer, toast } from "react-toastify";
 import Deposit from "views/pages/Deposit";
 import { SocketContext } from "services/socket";
+import Message from "views/pages/Message";
 
 const Admin = (props) => {
 
@@ -164,10 +165,12 @@ const Admin = (props) => {
           <Route path="*" element={<Navigate to="/admin/dashboard" replace />} />
           <Route path="/pesanan/:kodePesan" element={<Navigate to="/pesanan/:pesanan" replace/>}/>
           <Route path="/deposit" element={<Deposit/>} exact/>
+          <Route path="/messages" element={<Message/>} exact/>
+
 
         </Routes>
         <Container fluid>
-          <AdminFooter />
+          {/* <AdminFooter /> */}
         </Container>
       </div>
     </>

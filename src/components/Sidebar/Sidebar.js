@@ -291,6 +291,18 @@ const Sidebar = (props) => {
               </NavLink>
             </NavItem>
           </Nav>
+          <Nav navbar>
+            <NavItem>
+              <NavLink
+                to="/admin/messages"
+                tag={NavLinkRRD}
+                onClick={closeCollapse}
+              >
+                <i className="fas fa-wallet text-warning"/>
+                Messages
+              </NavLink>
+            </NavItem>
+          </Nav>
         </Collapse>
       </Container>
     </Navbar>
